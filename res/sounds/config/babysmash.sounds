@@ -1,0 +1,11 @@
+# Sound files acquired from https://github.com/shanselman/babysmash
+# Note: All sounds were run through Audacity to guarantee that they're
+# uncompressed waves.
+# I also trimmed the silence at the end of smallbumblebee.wav
+sounds/babysmash/babygigl2.wav
+sounds/babysmash/babylaugh.wav
+sounds/babysmash/ccgiggle.wav
+sounds/babysmash/giggle.wav
+sounds/babysmash/laughingmice.wav
+sounds/babysmash/scooby2.wav
+sounds/babysmash/smallbumblebee.wav
