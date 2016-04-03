@@ -1,10 +1,19 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-jar {
+mainClassName = 'babybang.BabyBangApp'
+
+jar() {
     manifest {
-        attributes 'Main-Class': 'babybang.BabyBangApp'
+        attributes 'Main-Class': mainClassName
     }
+    from "LICENSE"
 }
 
-mainClassName = 'babybang.BabyBangApp'
+applicationDistribution.from("LICENSE") {
+    into ""
+}
+
+applicationDistribution.from( "src/main/resources/sounds/babysmash/babysmash_LICENSE.txt") {
+    into "etc/licenses"
+}
