@@ -42,6 +42,7 @@ public class BabyBangApp extends Application {
 	public void start(Stage primaryStage) {
 		initStage(primaryStage);
 		primaryStage.show();
+		Sounds.init();
 	}
 
 	/**

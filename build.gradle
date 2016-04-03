@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'babybang.BabyBangApp'
+    }
+}
+
+mainClassName = 'babybang.BabyBangApp'
